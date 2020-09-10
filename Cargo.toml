@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "enyare-contract",
+    "enyare-ws",
+]

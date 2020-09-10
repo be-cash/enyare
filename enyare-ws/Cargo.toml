@@ -1,0 +1,13 @@
+[package]
+name = "enyare-ws"
+version = "0.1.0"
+authors = ["tobiasruck <ruck.tobias@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+bitcoin-cash = { path="../../../../becash/rust/bitcoin-cash/bitcoin-cash", version="0.2.3" }
+bitcoin-cash-ecc = { path="../../../../becash/rust/bitcoin-cash/bitcoin-cash-ecc", version="0.2.1" }
+enyare-contract = { path="../enyare-contract" }
+iguana-ws = { path="../../../../becash/rust/iguana/iguana-ws", version="0.2.0" }
+hex = "0.4"
